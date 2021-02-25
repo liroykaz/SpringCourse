@@ -1,0 +1,5 @@
+tprov:
+  profile: YAML Production
+  description: YAML profile rules now
+  format: hh:mm:ss.SSSZ dd.MM.yyyy
+
