@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="BookShopSpring:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/BookShopSpring_Web</output-path>
+    <root id="archive" name="BookShopSpring_Web.war">
+      <element id="artifact" artifact-name="BookShopSpring:Web exploded" />
+      <element id="javaee-facet-resources" facet="BookShopSpring/web/Web2" />
+      <element id="javaee-facet-resources" facet="BookShopSpring/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BookShopSpring" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.17.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.17.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.17.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BookShopSpring/web/Web" />
+    </root>
+  </artifact>
+</component>
