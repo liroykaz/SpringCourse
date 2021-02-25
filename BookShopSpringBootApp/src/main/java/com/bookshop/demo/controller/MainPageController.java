@@ -23,4 +23,24 @@ public class MainPageController {
         model.addAttribute("bookData", bookService.getBooksData());
         return "index";
     }
+
+    @GetMapping("/genres")
+    public String genresPage(Model model) {
+        return "/genres/index";
+    }
+
+    @GetMapping("/genres/slug")
+    public String genresSlug(Model model) {
+        return "/genres/slug";
+    }
+
+    @GetMapping("/authors")
+    public String authorsPage(Model model) {
+        return "/authors/index";
+    }
+
+    @GetMapping("/authors/slug")
+    public String authorsSlug(Model model) {
+        return "/authors/slug";
+    }
 }
