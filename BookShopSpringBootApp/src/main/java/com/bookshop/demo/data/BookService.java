@@ -1,4 +1,4 @@
-package com.bookshop.demo.controller.data;
+package com.bookshop.demo.data;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -24,7 +24,7 @@ public class BookService {
             book.setId(rs.getInt("id"));
             book.setAuthor(rs.getString("author"));
             book.setTitle(rs.getString("title"));
-            book.setOldPrice(rs.getString("priceOld"));
+            book.setPriceOld(rs.getString("priceOld"));
             book.setPrice(rs.getString("price"));
 
             return book;

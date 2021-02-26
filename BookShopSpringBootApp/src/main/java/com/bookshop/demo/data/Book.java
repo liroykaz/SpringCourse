@@ -1,11 +1,11 @@
-package com.bookshop.demo.controller.data;
+package com.bookshop.demo.data;
 
 public class Book {
 
     private Integer id;
     private String author;
     private String title;
-    private String oldPrice;
+    private String priceOld;
     private String price;
 
 
@@ -15,7 +15,7 @@ public class Book {
                 "id=" + id +
                 ", author='" + author + '\'' +
                 ", title='" + title + '\'' +
-                ", oldPrice='" + oldPrice + '\'' +
+                ", oldPrice='" + priceOld + '\'' +
                 ", price='" + price + '\'' +
                 '}';
     }
@@ -44,12 +44,12 @@ public class Book {
         this.title = title;
     }
 
-    public String getOldPrice() {
-        return oldPrice;
+    public String getPriceOld() {
+        return priceOld;
     }
 
-    public void setOldPrice(String oldPrice) {
-        this.oldPrice = oldPrice;
+    public void setPriceOld(String oldPrice) {
+        this.priceOld = oldPrice;
     }
 
     public String getPrice() {

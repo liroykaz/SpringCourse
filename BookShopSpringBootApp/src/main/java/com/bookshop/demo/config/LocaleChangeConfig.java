@@ -1,4 +1,4 @@
-package com.bookshop.demo.controller.config;
+package com.bookshop.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
